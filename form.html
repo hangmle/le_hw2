@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Hang Le - Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <p><a href="index.html">Go to Introductory Page</a></p>
+    <hr>
+    <h2>Log in with your account</h2>
+    <form>
+      Account name: <input type="text" name="name"><br>
+      Password: <input type="password" name="pwd"><br>
+      <h4>Edit your order</h4>
+      <table>
+        <tr>
+          <td valign="top">
+            Photo theme:<br>
+            <input type="radio" name="theme" value="astr">Astronomy<br>
+            <input type="radio" name="theme" value="nature">Nature<br>
+            <input type="radio" name="theme" value="ldsc">Landscape
+          </td>
+          <td>Size:<br>
+            <input type="checkbox" name="size" value="1015">10 x 15<br>
+            <input type="checkbox" name="size" value="1624">16 x 24<br>
+            <input type="checkbox" name="size" value="2020">20 x 20<br>
+            <input type="checkbox" name="size" value="2030">20 x 30<br>
+            <input type="checkbox" name="size" value="2436">24 x 36
+          </td>
+          <td valign="top">
+            Photo number:<br>
+            <select name="number">
+              <option value="1a">1A</option>
+              <option value="2d">2D</option>
+              <option value="3b">3B</option>
+              <option value="4e">4E</option>
+            </select>
+          </td>
+        </tr>
+        <tr>Date of order: <input type="date" name="orderDate"></tr>
+      </table>
+      <input type="submit" value="Add to cart">
+    </form>
+  </body>
+</html>
